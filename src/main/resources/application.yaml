@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-ai-demo
+  ai:
+    openai:
+      api-key: sk-f84f9be7b1ab448cac0da4d52cff04d6
+      # ollama 也是走的openai协议
+      base-url: http://localhost:11434
+      chat:
+        options:
+          model: qwen2.5-coder:3b
